@@ -1,0 +1,34 @@
+.ticket-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  background-color: #f8f8f8;
+}
+
+.ticket-group {
+  margin: 0 10px;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.ticket-card > p:last-child {
+  color: gray;
+  border: 1px solid #f5f3f3;
+  border-radius: 4px;
+  padding: 5px;
+  width: max-content;
+}
+
+.ticket-card h4 {
+  color: gray;
+}
